@@ -1,0 +1,27 @@
+{
+  "name": "tornomac-web",
+  "version": "0.0.1",
+  "description": "Platform for tornomac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonataRibeiro/tornomac-web.git"
+  },
+  "keywords": [
+    "torno",
+    "tornomac"
+  ],
+  "author": "jhonatar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhonataRibeiro/tornomac-web/issues"
+  },
+  "homepage": "https://github.com/JhonataRibeiro/tornomac-web#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
+}
