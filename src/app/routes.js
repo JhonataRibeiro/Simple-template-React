@@ -1,12 +1,10 @@
 import React from "react";
-import React-dom from "react-dom";
-import { IndexRoute, Route } from 'react-router';
-import App from "./container/App"
+import ReactDom from "react-dom";
+import { Route, IndexRoute } from 'react-router';
+import { App } from "./container"
 
 export default () => {
 	return(
-		<Route path="/" component={ App }>
-			<IndexRoute component={ App }/>
-		</Route>
+		<Route path="/" component={App}/>
 	)
 }
