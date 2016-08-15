@@ -17,10 +17,9 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   module: {
-    loaders: [{
-      test: /\.js$/,
-      loaders: ['react-hot', 'babel'], // react-hot is like browser sync and babel loads jsx and es6-7
-      include: path.join(__dirname, 'src')
-    }]
+    loaders: [{test: /\.js$/, loaders: ['react-hot', 'babel'], // react-hot is like browser sync and babel loads jsx and es6-7
+    include: path.join(__dirname, 'src')},
+    {test: /\.scss$/, loaders: ["style", "css", "sass"]}
+    ]
   }
 };
