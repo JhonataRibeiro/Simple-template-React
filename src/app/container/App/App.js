@@ -9,6 +9,7 @@ class App extends Component {
 
   render() {
   	console.log('App container rendering');
+    const styles = require('./App.js');
     return (
       <div id='outer-container'>
           <h1>Hello App.</h1>
