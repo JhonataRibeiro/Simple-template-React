@@ -12,8 +12,7 @@ class App extends Component {
     const styles = require('./App.js');
     return (
       <div id='outer-container'>
-          <h1>Hello App.</h1>
-      		<main id='page-wrap'>
+          <main id='page-wrap'>
       			   <div>
                 { this.props.children }
                </div>
