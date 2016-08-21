@@ -7,9 +7,10 @@ class Home extends Component {
 	}
 
 	render(){
+		const styles = require('./Home.scss')
 		return(
 			<div>
-			<h1>Home</h1>
+			<h1 className="glyphicon-refresh">Home</h1>
 			</div>
 			);
 	}

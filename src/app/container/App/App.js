@@ -9,12 +9,16 @@ class App extends Component {
 
   render() {
   	console.log('App container rendering');
-    const styles = require('./App.js');
+    const styles = require('./App.scss');
+    console.log(styles);
     return (
       <div id='outer-container'>
           <main id='page-wrap'>
       			   <div>
                 { this.props.children }
+               </div>
+               <div className={styles.app}>
+                  <div className={styles.brand}>Jhonata Ribeiro</div>
                </div>
                <Footer/>
       		</main>

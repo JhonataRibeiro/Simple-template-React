@@ -1,15 +1,6 @@
 .app {
   .brand {
-    position: relative;
-    $size: 30px;
-    top: 10px;
-    left: 20px;
-    display: inline-block;
-    background: transparent url('../../../static/logo.png') no-repeat center center;
-    width: $size * 3;
-    height: $size;
-    background-size: 100%;
-    margin: 0 60px 0 0;
+    background:blue;
   }
   nav :global(.fa) {
     font-size: 2em;
