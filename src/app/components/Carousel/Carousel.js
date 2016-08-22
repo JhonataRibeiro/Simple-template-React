@@ -8,10 +8,9 @@ class Carousel extends Component{
 		
 	};
 
-	
 	render(){
 
-		const styles = require('./Slider.scss');
+		const styles = require('./Carousel.scss');
 
 		return(
 			<div className={styles.SliderHome}>
