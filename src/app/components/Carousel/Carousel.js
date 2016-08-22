@@ -1,7 +1,8 @@
 import React, { Component, PropsType } from 'react';
-{/*import HeroContent from 'components/HeroContent/HeroContent';*/}
+import Slider from 'react-slick';
 
-class Slider extends Component{
+
+class Carousel extends Component{
 
 	static propTypes = {
 		
@@ -22,4 +23,4 @@ class Slider extends Component{
 	}
 }
 
-export default Slider;
+export default Carousel;

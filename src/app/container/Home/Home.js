@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { Carousel } from '../../components';
 
 class Home extends Component {
 	
@@ -11,6 +12,7 @@ class Home extends Component {
 		return(
 			<div>
 			<h1 className="glyphicon-refresh">Home</h1>
+			<Carousel/>
 			</div>
 			);
 	}
