@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { Carousel } from '../../components';
+import { SliderHome } from '../../components';
 
 class Home extends Component {
 	
@@ -11,8 +11,7 @@ class Home extends Component {
 		const styles = require('./Home.scss')
 		return(
 			<div>
-			<h1 className="glyphicon-refresh">Home</h1>
-			<Carousel/>
+			<SliderHome title="Guincho 24 horas" buttonTitle="Solicite" main="true" buttonIcon="right arrow" href="#"/>
 			</div>
 			);
 	}
