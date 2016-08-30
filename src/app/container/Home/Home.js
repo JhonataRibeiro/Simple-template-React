@@ -10,8 +10,8 @@ class Home extends Component {
 	render(){
 		const styles = require('./Home.scss')
 		return(
-			<div>
-			<SliderHome title="Guincho 24 horas" buttonTitle="Solicite" main="true" buttonIcon="right arrow" href="#"/>
+			<div className="container">
+			<SliderHome/>
 			</div>
 			);
 	}
