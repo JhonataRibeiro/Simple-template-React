@@ -8,7 +8,7 @@ module.exports = {
     'webpack/hot/only-dev-server',
     './src/app/client'
   ],
-  output: {
+  output: { 
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
     publicPath: '/static/'

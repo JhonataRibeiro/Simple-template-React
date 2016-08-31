@@ -5,13 +5,18 @@ class SliderHome extends Component {
 
 	render() {
       const settings = {
-      dots: true
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
     };
+    const styles = require('./SliderHome.scss');
     return (
-      <div style={{height: '90vh' }}>
-        <Slider>
-          <div key={1}><img src='http://placekitten.com/g/1400/700' /></div>
-          <div key={2}><img src='http://placekitten.com/g/1400/700' /></div>
+      <div className='container'>
+        <Slider { ...settings }>
+        <div style={{display: 'inline-block', width: 500}}><h3>1</h3></div>
+        <div style={{display: 'inline-block', width: 500}}><h3>2</h3></div>
         </Slider>
       </div>
     );

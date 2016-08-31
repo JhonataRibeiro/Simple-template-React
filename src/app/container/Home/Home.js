@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { SliderHome } from '../../components';
 
-class Home extends Component {
-	
+class Home extends Component {	
+
 	static propTypes = {
 
 	}
@@ -10,7 +10,7 @@ class Home extends Component {
 	render(){
 		const styles = require('./Home.scss')
 		return(
-			<div className="container">
+			<div>
 			<SliderHome/>
 			</div>
 			);
