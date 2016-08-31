@@ -15,8 +15,8 @@ class SliderHome extends Component {
     return (
       <div className='container'>
         <Slider { ...settings }>
-        <div style={{display: 'inline-block', width: 500}}><h3>1</h3></div>
-        <div style={{display: 'inline-block', width: 500}}><h3>2</h3></div>
+        <div style={{display: 'inline-block'}}><h3>1</h3></div>
+        <div style={{display: 'inline-block'}}><h3>2</h3></div>
         </Slider>
       </div>
     );
