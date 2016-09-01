@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { SliderHome } from '../../components';
+import { Carousel } from '../../components';
 
 class Home extends Component {	
 
@@ -11,7 +11,7 @@ class Home extends Component {
 		const styles = require('./Home.scss')
 		return(
 			<div>
-			<SliderHome/>
+			<Carousel/>
 			</div>
 			);
 	}

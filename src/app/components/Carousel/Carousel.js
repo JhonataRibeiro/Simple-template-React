@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import Slider from 'react-slick';
 
-class SliderHome extends Component {
+class Carousel extends Component {
 
 	render() {
       const settings = {
@@ -11,7 +11,7 @@ class SliderHome extends Component {
       slidesToShow: 1,
       slidesToScroll: 1
     };
-    const styles = require('./SliderHome.scss');
+    const styles = require('./Carousel.scss');
     return (
       <div className='container'>
         <Slider { ...settings }>
@@ -23,4 +23,4 @@ class SliderHome extends Component {
 	}
 }
 
-export default SliderHome;
+export default Carousel;

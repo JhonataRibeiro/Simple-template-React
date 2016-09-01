@@ -1,3 +1,3 @@
 export Footer from './Footer/Footer';
-export SliderHome from './SliderHome/SliderHome';
+export Carousel from './Carousel/Carousel';
 export HeroContent from './HeroContent/HeroContent';
