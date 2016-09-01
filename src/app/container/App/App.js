@@ -9,6 +9,8 @@ class App extends Component {
 
     render() {
         console.log('App container rendering');
+        //TODO: add normalize
+        //const normalize = require('../../../../node_modules/normalize.css/normalize.css');
         const styles = require('./App.scss');
         console.log(styles);
         return (
