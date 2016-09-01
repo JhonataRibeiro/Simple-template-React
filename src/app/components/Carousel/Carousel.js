@@ -5,18 +5,37 @@ class Carousel extends Component {
 
 	render() {
       const settings = {
-      dots: true,
+      className: 'center',
+      lazyLoad: false,
+      arrows: false,
+      draggable: false,
+      swipeToSlide: false,
+      speed: 2000,
+      autoplay: true,
+      autoplaySpeed: 6000,
       infinite: true,
-      speed: 500,
+      variableWidth: false,
+      adaptiveHeight: false,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      fade: true,
     };
     const styles = require('./Carousel.scss');
+    let coverStyle = (img) => {
+      return {
+        backgroundImage: 'url(' + img + ')',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundColor: '#F071B2C',
+        textAlign: 'center',
+        height: '90vh'
+      };
+    };
     return (
       <div className='container'>
         <Slider { ...settings }>
-        <div style={{display: 'inline-block'}}><h3>1</h3></div>
-        <div style={{display: 'inline-block'}}><h3>2</h3></div>
+        <div style={{display: 'inline-block'}}><img src='http://lorempixel.com/g/1400/700'/></div>
+        <div style={{display: 'inline-block'}}><img src='http://lorempixel.com/g/1400/700'/></div>
         </Slider>
       </div>
     );

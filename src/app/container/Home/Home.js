@@ -12,6 +12,7 @@ class Home extends Component {
 		return(
 			<div>
 			<Carousel/>
+			Jhonata Ribeiro 
 			</div>
 			);
 	}
