@@ -8,10 +8,9 @@ class Footer extends Component {
             {/*TODO:O footer não deve ser fixo, ele deve se ajustar ao conteudo com alguma margem de padding*/}
           	{/*TODO:Deve ser um titulo com props: fonte-size, padding acima e abaixo, padding lados*/}
             {/*TODO:Deve ter uma opção de centralizar dentro da div*/}
- 		         <Title/>
+ 		        <Title/>
     </div>
     );
   }
 }
-
 export default Footer;

@@ -8,7 +8,6 @@ class Title extends Component {
 					<h2>Tornomec</h2>
 				</div>
 		);
-
 	}
 }
 
