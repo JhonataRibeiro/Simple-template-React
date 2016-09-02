@@ -18,8 +18,8 @@ class App extends Component {
                 <main id='page-wrap'>
                     <div>
                         { this.props.children }
+                        <Footer/>
                     </div>
-                    <Footer/>
                 </main>
             </div>
         );
