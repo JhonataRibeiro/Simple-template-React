@@ -1,13 +1,14 @@
 .container {
 	display:flex;
-	flex-direction:row;
-	flex-wrap:nowrap;
+	height:300px;
 }
 .cardHuge {
+	width:100px;
 	background:blue;
-	width:500px;
+	margin:auto;
 }
 .cardSmall {
+	width:100px;
 	background:red;
-	width:300px;
+	margin:auto;
 }
