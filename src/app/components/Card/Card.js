@@ -4,7 +4,13 @@ class Card extends Component {
   	const styles = require('./Card.scss');
     return (
       <div className='container'>
-    </div>
+          <div>
+            Box Jhonata
+          </div>
+          <div>
+            Box Ribeiro
+          </div>
+      </div>
     );
   }
 }
