@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { Carousel } from '../../components';
+import { Carousel, Card } from '../../components';
 
 class Home extends Component {	
 
@@ -12,7 +12,7 @@ class Home extends Component {
 		return(
 			<div>
 			<Carousel/>
-			Jhonata Ribeiro 
+			<Card/>
 			</div>
 			);
 	}
