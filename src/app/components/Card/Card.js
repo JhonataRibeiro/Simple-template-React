@@ -3,11 +3,12 @@ class Card extends Component {
   render() {
   	const styles = require('./Card.scss');
     return (
-      <div className='container'>
-          <div className="cardHuge">
+      //TODO: O container pode ser tornar um component?
+      <div className='container-card'>
+          <div className="card">
             Box Jhonata
           </div>
-          <div className="cardSmall">
+          <div className="card">
             Box Ribeiro
           </div>
       </div>

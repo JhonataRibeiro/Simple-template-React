@@ -1,14 +1,11 @@
-.container {
-	display:flex;
-	height:300px;
+.container-card {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+	justify-content: center;
 }
-.cardHuge {
+.card {
 	width:100px;
 	background:blue;
-	margin:auto;
-}
-.cardSmall {
-	width:100px;
-	background:red;
 	margin:auto;
 }
