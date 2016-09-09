@@ -32,7 +32,7 @@ class Carousel extends Component {
       };
     };
     return (
-      <div className='container'>
+      <div className='container-carousel'>
         <Slider { ...settings }>
         <div style={{display: 'inline-block'}}><img src='http://lorempixel.com/g/1400/700'/></div>
         <div style={{display: 'inline-block'}}><img src='http://lorempixel.com/g/1400/700'/></div>
