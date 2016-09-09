@@ -16,10 +16,8 @@ class App extends Component {
         return (
             <div id='outer-container'>
                 <main id='page-wrap'>
-                    <div>
                         { this.props.children }
                         <Footer/>
-                    </div>
                 </main>
             </div>
         );
