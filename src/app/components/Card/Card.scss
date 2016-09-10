@@ -7,9 +7,23 @@
 	display: -webkit-flex;
 	-webkit-justify-content: center;
 	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap:wrap;
+	margin:10px;
+	padding:1%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .card {
-	width:100px;
+	@media (max-width: 700px) {
+		width: 100%;
+	}
+	@media (min-width: 700px) {
+		max-width: 320px;
+
+	}
+	position:relative;
 	background:blue;
 	margin:auto;
 }

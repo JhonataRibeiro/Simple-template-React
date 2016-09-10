@@ -14,15 +14,24 @@ class Card extends Component {
               <div className="card">
                 {/*Image of card*/}
                 <div style={ cardImage }></div>
-                <span>Card One</span>
+                <h3>This is a title for a card</h3>
+                <span class="card-summary">
+        A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+      </span>
               </div>
               <div className="card">
                 <div style={ cardImage }></div>
-                <span>Card Two</span>
+                <h3>This is a title for a card</h3>
+                <span class="card-summary">
+        A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+      </span>
               </div>
               <div className="card">
                 <div style={ cardImage }></div>
-                <span>Card Three</span>
+                <h3>This is a title for a card</h3>
+                <span class="card-summary">
+        A summary will also be present. Usually two to three brief sentences about the content on the detail page.
+      </span>
               </div>
           </div>
       </div>
