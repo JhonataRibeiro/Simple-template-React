@@ -5,7 +5,9 @@ class Title extends Component {
 		const styles = require('./Title.scss');
 		return(
 				<div className='wraperTitle'>
-					<h2 className='title'>Tornomec</h2>
+					{/*TODO: pass title by props*/}
+					<h2 className='title'>sample project</h2>
+					}
 				</div>
 		);
 	}
